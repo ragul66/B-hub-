@@ -80,7 +80,7 @@ const About = () => {
         />
         <Gallery />
         <Map />
-        <Footer />
+        {/* <Footer /> */}
         <Share />
       </div>
     </>

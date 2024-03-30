@@ -5,7 +5,7 @@ import webd from "../assets/webd.jpg";
 const Services = () => {
   return (
     <div className="text-textcolor-0 font-primary">
-      <h2 className="font-primary lg:text-[120px] text-center">
+      <h2 className="text-[40px] md:text-[80px]font-primary lg:text-[120px] text-center">
         Services Provided
       </h2>
 
@@ -50,7 +50,7 @@ const ServiceItem = ({ imgSrc, imgAlt, description, reversed }) => {
         }`}
     >
       <motion.img
-        className="w-1/2 rounded-lg mb-4 flex flex-col  lg:w-1/2 lg:rounded-lg lg:mb-4 lg:flex lg:flex-col lg:grayscale lg:hover:grayscale-0 "
+        className="w-48 md:w-60 rounded-lg mb-4 flex flex-col  lg:w-1/2 lg:rounded-lg lg:mb-4 lg:flex lg:flex-col lg:grayscale lg:hover:grayscale-0 "
         src={imgSrc}
         alt={imgAlt}
         initial={{ opacity: 0, x: reversed ? 50 : -50 }}
@@ -60,7 +60,7 @@ const ServiceItem = ({ imgSrc, imgAlt, description, reversed }) => {
         }}
         transition={{ duration: 0.5 }}
       />
-      <p className="lg:text-gray-700 lg:flex lg:flex-col lg:text-7xl lg:z-30 lg:mx-6">
+      <p className="text-xl md:text-3xl lg:text-gray-700 lg:flex lg:flex-col lg:text-7xl lg:z-30 lg:mx-6">
         {description}
       </p>
     </div>

@@ -38,7 +38,7 @@ const Table = () => {
     <div className="flex flex-col justify-center items-center h-screen w-screen space-y-2 md:flex md:flex-col md:justify-center md:items-center md:h-screen md:w-screen md:space-y-2 text-textcolor-0 lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-screen font-primary lg:space-y-4">
       <h2 className="text-3xl lg:text-6xl lg:mb-12">Honors & Awards</h2>
       <motion.table
-        className="lg:text-4xl"
+        className="text-xl md:text-2xl lg:text-4xl"
         ref={ref}
         initial="hidden"
         animate={animation}

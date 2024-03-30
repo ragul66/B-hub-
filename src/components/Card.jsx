@@ -9,7 +9,7 @@ const Card = ({ details, togglePopup }) => {
   };
   return (
     <div className="mt-56">
-      <h2 className="text-[150px] font-primary text-center">Our Team</h2>
+      <h2 className="text-[40px] md:text-[80px] lg:text-[150px] font-primary text-center">Our Team</h2>
       <div className="px-2 text-base flex justify-center items-center font-Kumbh flex-wrap">
         {details.map((detail, index) => (
           <div
